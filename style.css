@@ -1,8 +1,6 @@
 div {
   margin: 0px 80px 0px;
   display: flex;
-  /* height: 310px; */
-  /* min-height: auto; */
   min-height: fit-content;
 }
 
@@ -12,19 +10,10 @@ header {
   display: flex;
   align-items: center;
   margin: 0px 100px 0px;
-  /* margin: auto; */
   border-style: dotted;
-  /* max-width: 600px; */
-
-
-/*   padding: 10px 90px; */
-/*   top: 0; */
-/*   width: 100%; */
-/*   position: fixed; */
-/*   position: static; */
 }
 
-#vlevo {
+#left {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -36,53 +25,56 @@ header {
 }
 main {
   flex-grow: 10;
-  /* display: block; */
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: block;
   border-style: dotted;
-  text-align: center;
-  flex-direction: column-reverse;
+  z-index: 0;
 }
 
-#fotka-main {
-  /* background-image: url("./fotky/IMG_20200410_094426.jpg"); */
+#photo-holder {
+  position: relative;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+}
+
+.gray-container {
+  position: relative;
+  display: block;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  top: -100px;
+  left: -0px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.699);
+  z-index: 3;
+}
+
+#id-photo-main {
+  position: relative;
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
-#popis-fotky{
+#photo-title, #photo-descripction {
   border-style: dotted;
-  position: fixed;
-  color: white;
-  margin-block-start: -0.0px;
-  margin-block-end: 2.90px;
-  margin-inline-start: 0px;
-  margin-inline-end: -50px;
-  background-color: rgba(128, 128, 128, 0.699);
-  min-height: 50px;
-  margin: 0px 10px 0px;
+  border: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  min-height: 30px;
+  padding-top: 10px;
 }
 
 
-  #popis-fotky-02 {
-    border-style: dotted;
-    position: fixed;
-    color: white;
-    margin-block-start: -0.0px;
-    margin-block-end: 2.90px;
-    margin-inline-start: 0px;
-    margin-inline-end: -50px;
-    background-color: rgba(128, 128, 128, 0.699);
-    min-height: 25px;
-    margin: 0px 10px 0px;
-}
 
-#vpravo {
+#right {
   display: flex;
-  /* align-items: flex-end; */
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -106,8 +98,8 @@ main {
   background-color: whitesmoke;
 }
 
-.gray-container {
-/* .item { */
+
+.item {
   width: 100%;
   height: 50px;
   background: rgb(255, 158, 47);
@@ -129,9 +121,6 @@ footer {
   background: grey;
   height: 80px;
   border-style: dotted;
-  /* align-items: flex-end; */
-  /* align-items: flex-start; */
-  /* flex-direction: column; */
   flex-direction: row;
   justify-content: space-between;
 }
