@@ -118,9 +118,9 @@ footer {
   display: flex;
   align-items: center;
   margin: 0 200px;
-  background: grey;
+  /* background: grey; */
   height: 80px;
-  border-style: dotted;
+  /* border-style: dotted; */
   flex-direction: row;
   justify-content: space-between;
 }
@@ -132,16 +132,20 @@ footer {
   background: #2aa9fe;
   margin: 5px;
   list-style-type: none;
-  border-style: dotted;
+  /* border-style: dotted; */
 
- }
+  }
+
+  .itemToombnail:hover {
+    width: 45px;
+    height: 40px;
+   }
 
  #prvni-it {
   margin-left: 50px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
@@ -159,7 +163,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
@@ -176,7 +179,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
@@ -193,7 +195,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
@@ -210,7 +211,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
@@ -227,7 +227,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
@@ -244,7 +243,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  border-style: dotted;
   text-align: center;
   flex-direction: column-reverse;
 }
