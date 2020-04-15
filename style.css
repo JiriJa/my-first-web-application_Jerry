@@ -10,7 +10,7 @@ header {
   display: flex;
   align-items: center;
   margin: 0px 100px 0px;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 
 #left {
@@ -21,12 +21,12 @@ header {
   flex-grow: 1;
   background: white;
   margin: 0px 20px 0px;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
 main {
   flex-grow: 10;
   display: block;
-  border-style: dotted;
+  /* border-style: dotted; */
   z-index: 0;
 }
 
@@ -81,8 +81,9 @@ main {
   flex-grow: 1;
   background: white;
   margin: 0px 20px 0px;
-  border-style: dotted;
+  /* border-style: dotted; */
 }
+
 
 #sipka-vpravo {
   transform: rotate(0.5turn);
@@ -98,6 +99,15 @@ main {
   background-color: whitesmoke;
 }
 
+#sipka-vlevo:hover {
+  width: 20px;
+  height: 50px;
+ }
+
+#sipka-vpravo:hover {
+  width: 20px;
+  height: 50px;
+ }
 
 .item {
   width: 100%;
