@@ -100,10 +100,16 @@ let dataDruhy = {
   let imagesData = [dataPrvni, dataDruhy, dataTreti, dataCtvrty, dataPaty, dataSesty, dataPosledni];
 
   $('#id-photo-main').attr('src', imagesData[currentPhoto].photo);
+  $('#photo-title').text(imagesData[currentPhoto].title);
+  $('#photo-descripction').text(imagesData[currentPhoto].description);
+
 
   let loadPhoto = (photoNumber) => {
     $('#id-photo-main').attr('src', imagesData[photoNumber].photo);
-    // ...
+    $('#photo-title').text(imagesData[photoNumber].title);
+    $('#photo-descripction').text(imagesData[photoNumber].description);
+
+    // // ...
   }
 
   
