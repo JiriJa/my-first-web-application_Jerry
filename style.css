@@ -2,8 +2,9 @@
 
 div {
   margin: 0px 20px 0px;
+  margin: 0px 20% 0px;
   display: flex;
-  min-height: fit-content;
+  /* min-height: fit-content; */
 }
 
 header {
@@ -156,6 +157,7 @@ footer {
   display: flex;
   align-items: center;
   margin: 0 200px;
+  margin: 0 20%;
   /* background: grey; */
   height: 80px;
   /* border-style: dotted; */
