@@ -1,12 +1,12 @@
 div {
-  margin: 0px 80px 0px;
+  margin: 0px 180px 0px;
   display: flex;
   min-height: fit-content;
 }
 
 header {
   background: white;
-  height: 50px;
+  height: 90px;
   display: flex;
   align-items: center;
   margin: 0px 100px 0px;
