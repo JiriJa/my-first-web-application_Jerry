@@ -125,6 +125,7 @@ let dataDruhy = {
     if (currentPhoto <= -1) {
       currentPhoto = 6;
     }    
+    
     loadPhoto(currentPhoto);
   })
 
